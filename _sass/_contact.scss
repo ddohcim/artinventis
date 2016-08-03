@@ -1,0 +1,37 @@
+body.contact__view{
+  section.contact{
+    padding:7rem 0;
+    background-image:url('../img/contact-bg.png');
+    background-repeat: no-repeat;
+    background-position: 80% 200px;
+    background-size: 16%;
+  }
+
+  section.contact-map{
+
+    background-color:transparent;
+
+    .contact-map__right{
+      background-color:$brown;
+      h4{
+        color:white;
+      }
+      p{
+        color:$grey;
+      }
+    }
+  }
+
+  form{
+    margin-top:3.9rem;
+  }
+
+  .btn-send{
+    margin-top:2rem;
+  }
+
+  textarea{
+    height:200px;
+  }
+
+}

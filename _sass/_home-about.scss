@@ -1,0 +1,89 @@
+section.home-about{
+  background-color:$brown;
+
+  .row{
+    position:relative;
+  }
+}
+
+div.large-6.columns.home-about__content{
+  padding: 3.889rem 3rem 0 1rem;
+
+  @include breakpoint(medium down) {
+    text-align: center;
+  }
+
+  h3{
+    font-size:1.389em;
+    color:white;
+    font-family: $pt-serif;
+
+  }
+  p{
+    margin-top:2.500em;
+    color:$grey;
+    font-size:1em;
+    span{
+      display: block;
+      margin-top:1em;
+    }
+  }
+  h3, p{
+    @include breakpoint(medium) {
+      padding:0 2rem;
+    }
+    @include breakpoint(small) {
+      padding:0 0.5rem;
+    }
+  }
+}
+
+.home-about__signatures{
+  margin-top:50px;
+}
+
+.home-about__right{
+  position: absolute;
+  right:0;
+  top:-40px;
+  img{
+    margin-bottom:40px;
+    @include breakpoint(medium down) {
+      width:49%;
+    }
+  }
+
+  @include breakpoint(medium down) {
+    position:absolute;
+    top:0;
+  }
+}
+
+.home-about__left{
+  @include breakpoint(medium down) {
+    text-align: center;
+  }
+  img{
+    @include breakpoint(medium down) {
+      margin:-48px 0.5rem 0 0.5rem;
+      &:nth-child(3){
+        margin-top:-110px;
+      }
+    }
+
+  }
+
+}
+
+.home-about__left-img{
+  @include breakpoint(medium down) {
+    max-height:300px;
+    max-width:190px;
+  }
+  @include breakpoint(large up) {
+    &:nth-child(2), &:nth-child(3){
+      display: none;
+    }
+  }
+
+}

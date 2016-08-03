@@ -1,0 +1,51 @@
+section.services{
+  padding:6rem 0;
+  @include breakpoint(medium down) {
+    padding:5rem 0;
+  }
+
+  .row{
+    margin-top:6rem;
+    @include breakpoint(medium down) {
+      margin-top:2rem;
+    }
+  }
+  .columns{
+    padding:0 2rem;
+  }
+
+  .large-4{
+    @include breakpoint(medium up) {
+      padding:0 2rem;
+    }
+    @include breakpoint(medium down) {
+      padding:3rem 10rem;
+    }
+    @include breakpoint(small down) {
+      padding:3rem 1rem;
+    }
+  }
+
+  h2{
+    font-family: $pt-serif;
+  }
+  img{
+    margin-bottom:2rem;
+  }
+  h3{
+    font-size:1.278em;
+    font-family: $pt-serif;
+  }
+  p{
+    color:$grey;
+    font-size:0.9rem;
+    line-height: 1.278rem;
+    margin:2rem 0;
+  }
+}
+
+.services__innovations{
+  img{
+    padding:22px 0;
+  }
+}

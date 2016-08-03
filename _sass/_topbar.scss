@@ -1,0 +1,71 @@
+.admin__info{
+  position: fixed;
+  top:0;
+  right:0;
+  background-color: red;
+  color:white;
+  padding:20px;
+}
+
+.topBar{
+  background-color:white;
+  border-bottom:1px solid $light-grey;
+  padding:0 20px;
+  height:70px;
+
+  .columns{
+    // display:flex;
+    // align-items:center;
+  }
+
+  .topbar__logo{
+    height:45px;
+    vertical-align: middle;
+  }
+
+  ul.menu{
+    background-color: transparent;
+  }
+  ul.menu li{
+    // height:70px;
+    // line-height:70px;
+
+    a{
+      color:$brown;
+      font-weight:700;
+      text-transform: uppercase;
+      font-size:0.778em;
+      // line-height: 3.5rem;
+      line-height:340%;
+    }
+  }
+}
+
+.topbar__hamburger{
+  img{
+    height:20px;
+  }
+}
+
+
+.off-canvas-wrapper, .off-canvas{
+  background-color:$brown;
+}
+.off-canvas{
+  .menu{
+    margin-top:1rem;
+  }
+  .menu li a{
+    font-size:1rem;
+    color:$gold;
+  }
+}
+
+.close-button{
+  right:-2rem;
+  top:-0.9rem;
+  color:$gold;
+  &:hover{
+    color:white;
+  }
+}

@@ -1,0 +1,44 @@
+.hero-section{
+  height:730px;
+  @include breakpoint(medium down) {
+    height:500px;
+  }
+  button{
+    margin-top:30px;
+  }
+
+}
+
+.hero__left{
+  padding:0 4em;
+  display:table;
+  height:100%;
+  @include breakpoint(medium down) {
+    padding-bottom:2rem;
+  }
+  @include breakpoint(small down) {
+    padding:0 2rem;
+  }
+}
+
+.helper1{
+  display:table-cell;vertical-align:middle;
+}
+
+.hero__illu{
+  background-image:url('../img/hero-illu.png');
+  background-size:cover;
+  background-repeat:no-repeat;
+  height:100%;
+
+  @include breakpoint(medium down) {
+    display:none;
+  }
+
+}
+
+.hero__typo{
+  @include breakpoint(medium down) {
+    text-align:center;
+  }
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body class="contact__view">
+    {% include offcanvas.html %}
+    {% include topbar.html %}
+
+
+    <!-- ######################################### -->
+    <!-- SECTION HERO START -->
+    <!-- ######################################### -->
+    <section class="contact">
+      <div class="expanded row">
+
+        <div class="large-6 large-centered columns text-center">
+
+            <div class="contact__typo">
+              <h1>Kontakt</h1>
+              <h2>Zapraszamy do wypełnienia formularza w celu konsultacji bądź wyceny</h2>
+            </div>
+
+            <form>
+              <div class="row">
+
+                <div class="medium-6 columns">
+                  <label class="text-left">Imię i nazwisko
+                    <input type="text" placeholder="">
+                  </label>
+                </div>
+
+                <div class="medium-6 columns">
+                  <label class="text-left">Adres e-mail
+                    <input type="text" placeholder="">
+                  </label>
+                </div>
+
+                <div class="medium-12 columns">
+                  <label class="text-left">
+                    Treść wiadomości
+                    <textarea placeholder="W czym możemy pomóc?"></textarea>
+                  </label>
+                </div>
+
+                <div class="medium-12 columns">
+                  <button class="btn-ghost btn-send">Wyślij wiadomość</button>
+                </div>
+
+              </div>
+            </form>
+
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- ######################################### -->
+    <!-- SECTION HERO END -->
+    <!-- ######################################### -->
+
+  {% include contact-map.html %}
+  {% include footer.html %}
+
+  </body>
+</html>

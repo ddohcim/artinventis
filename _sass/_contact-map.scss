@@ -1,0 +1,36 @@
+section.contact-map{
+  background-color:$grey-bg;
+}
+
+div.contact-map__right{
+  height:410px;
+  .contact-map__container{
+    padding: 4rem;
+    @include breakpoint(medium down) {
+      text-align: center;
+    }
+  }
+
+  h5{
+    text-transform: uppercase;
+    color: $gold;
+    font-weight: 700;
+    font-size: 0.8rem;
+  }
+  h4{
+    font-family: $pt-serif;
+    font-size:2.2rem;
+    margin:0.2rem 0;
+  }
+  p{
+    margin:2rem 0;
+    font-family:$pt-serif;
+    span{
+      display: block;
+      a{
+        color:$gold;
+        text-decoration: underline;
+      }
+    }
+  }
+}

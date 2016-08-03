@@ -1,0 +1,55 @@
+<!-- ######################################### -->
+<!-- SECTION CONTACT START -->
+<!-- ######################################### -->
+<section class="contact-map">
+  <div class="expanded row collapse">
+
+    <div class="large-6 columns">
+
+      <div id="map" style="height:410px;"></div>
+      <script>
+        function initMap() {
+          map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 13,
+            center: new google.maps.LatLng(50.3826139, 18.930294900000035),
+            scrollwheel: false,
+            navigationControl: false,
+            mapTypeControl: false,
+            scaleControl: false,
+            disableDefaultUI: true,
+            styles: [{"featureType":"landscape","stylers":[{"saturation":-100},{"lightness":65},{"visibility":"on"}]},{"featureType":"poi","stylers":[{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]},{"featureType":"road.highway","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"road.arterial","stylers":[{"saturation":-100},{"lightness":30},{"visibility":"on"}]},{"featureType":"road.local","stylers":[{"saturation":-100},{"lightness":40},{"visibility":"on"}]},{"featureType":"transit","stylers":[{"saturation":-100},{"visibility":"simplified"}]},{"featureType":"administrative.province","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels","stylers":[{"visibility":"on"},{"lightness":-25},{"saturation":-100}]},{"featureType":"water","elementType":"geometry","stylers":[{"hue":"#ffff00"},{"lightness":-25},{"saturation":-97}]}]
+          });
+          var image = 'img/map-marker.svg';
+          var beachMarker = new google.maps.Marker({
+            position: {lat: 50.3826139, lng: 18.930294900000035},
+            map: map,
+            icon: image
+          });
+
+        }
+      </script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBNRBIC4g6TKIAuFmkvL6hZPK-RbPBnAcM&callback=initMap"
+      async defer></script>
+
+  </div>
+
+    <div class="large-6 columns contact-map__right">
+        <div class="contact-map__container">
+          <h5>Skontaktuj się z nami</h5>
+          <h4>Art Inventis Sp. z o. o.</h4>
+          <p>
+            <span>ul. Konwaliowa 29 / 04</span>
+            <span>01-234 Katowice</span>
+          </p>
+          <p>
+            <span>Telefon: +48 789 123 765</span>
+          <span>E-mail: <a href="mailto:hello@artinventis.com">hello@artinventis.com</a></span>
+          </p>
+        </div>
+    </div>
+
+  </div>
+</section>
+<!-- ######################################### -->
+<!-- SECTION CONTACT END -->
+<!-- ######################################### -->

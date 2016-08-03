@@ -1,0 +1,24 @@
+section.cta{
+  background-color: $brown;
+  padding:7rem 0;
+
+  background-image: url('../img/ornament-a.svg'), url('../img/ornament-b.svg');
+  background-repeat:no-repeat;
+  background-position: bottom left, top right;
+  background-size: 15%;
+
+  h3{
+    font-family: $pt-serif;
+    font-size:3rem;
+    color:white;
+  }
+  h4{
+    font-size:1.4rem;
+    color:$gold;
+    margin-top:1.2rem;
+  }
+  button{
+    margin-top:3rem;
+  }
+
+}
