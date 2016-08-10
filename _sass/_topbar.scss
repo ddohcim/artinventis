@@ -5,6 +5,7 @@
   background-color: red;
   color:white;
   padding:20px;
+  z-index:9999999999;
 }
 
 .topBar{
@@ -42,6 +43,7 @@
   .active{
     border-bottom:2px solid $gold;
   }
+
 }
 
 .topbar__hamburger{
