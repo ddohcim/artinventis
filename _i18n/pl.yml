@@ -1,0 +1,9 @@
+global:
+  hero__h1: Projekty, aranżacje oraz konserwacja zabytków
+  hero__h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
+  hero__btn: Skontaktuj się z nami
+topbar:
+  konserwacja: konserwacja
+langs:
+  pl: Angielski
+  en: English

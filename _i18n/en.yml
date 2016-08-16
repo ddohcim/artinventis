@@ -1,0 +1,13 @@
+global:
+  hero__h1: Projects and aransations
+  hero__h2: blablabla
+  hero__btn: Contact us
+topbar:
+  konserwacja: conservation
+langs:
+  pl: Angielski
+  en: English
+page:
+  hero__h1: Projekty i aranżacje
+  hero__h2: blablabla
+  hero__btn: Contact us

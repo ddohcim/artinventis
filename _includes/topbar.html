@@ -25,33 +25,82 @@
 
     <div class="large-10 columns show-for-large">
       <ul class="menu align-right">
-
-        {% if page.active == "kontakt" %}
-          <li><a href="/kontakt.html" class="active">Kontakt</a></li>
+        {% if site.lang == "en" %}
+          {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
+          <li><a href="{{ link1 }}"><img src="{{ "/img/polish.svg" | prepend: site.baseurl_root }}" class="img-lang" alt="Polski"></a></li>
         {% else %}
-          <li><a href="/kontakt.html">Kontakt</a></li>
-        {% endif %}
-        <li><a href="#">O nas</a></li>
-        <li><a href="#">Referencje</a></li>
-
-        {% if page.active == "innowacje" %}
-        <li><a href="/innowacje.html" class="active">Innowacje</a></li>
-        {% else %}
-        <li><a href="/innowacje.html">Innowacje</a></li>
+          {% capture link2 %}{{ site.baseurl_root }}en{{ page.url}}{% endcapture %}
+          <li><a href="{{ link2 }}"><img src="{{ "/img/english.svg" | prepend: site.baseurl_root }}" class="img-lang" alt="English"></a></li>
         {% endif %}
 
-        {% if page.active == "projekty" %}
-        <li><a href="/projekty.html" class="active">Projekty i aranżacje</a></li>
-        {% else %}
-        <li><a href="/projekty.html">Projekty i aranżacje</a></li>
-        {% endif %}
 
-        {% if page.active == "konserwacja" %}
-          <li><a href="/konserwacja.html" class="active">Konserwacja</a></li>
+        {% if site.lang == "en" %}
+          <!-- ##################################
+          # ENGLISH menu start
+          ################################## -->
+          {% if page.active == "kontakt" %}
+            <li><a href="/contact.html" class="active">Contact</a></li>
+          {% else %}
+            <li><a href="/contact.html">Contact</a></li>
+          {% endif %}
+          <li><a href="#">About us</a></li>
+          <li><a href="#">References</a></li>
+
+          {% if page.active == "innowacje" %}
+          <li><a href="/innovations.html" class="active">Innovations</a></li>
+          {% else %}
+          <li><a href="/innovations.html">Innowations</a></li>
+          {% endif %}
+
+          {% if page.active == "projekty" %}
+          <li><a href="/projects.html" class="active">Projects and aransations</a></li>
+          {% else %}
+          <li><a href="/projects.html">Projects and aransations</a></li>
+          {% endif %}
+
+          {% if page.active == "konserwacja" %}
+            <li><a href="/conservation.html" class="active">Conservation</a></li>
+          {% else %}
+            <li><a href="/conservation.html">Conservation</a></li>
+          {% endif %}
+        </ul>
+        <!-- ##################################
+        # ENGLISH menu end
+        ################################## -->
         {% else %}
-          <li><a href="/konserwacja.html">Konserwacja</a></li>
+          <!-- ##################################
+          # POLISH menu start
+          ################################## -->
+          {% if page.active == "kontakt" %}
+            <li><a href="/kontakt.html" class="active">Kontakt</a></li>
+          {% else %}
+            <li><a href="/kontakt.html">Kontakt</a></li>
+          {% endif %}
+          <li><a href="#">O nas</a></li>
+          <li><a href="#">Referencje</a></li>
+
+          {% if page.active == "innowacje" %}
+          <li><a href="/innowacje.html" class="active">Innowacje</a></li>
+          {% else %}
+          <li><a href="/innowacje.html">Innowacje</a></li>
+          {% endif %}
+
+          {% if page.active == "projekty" %}
+          <li><a href="/projekty.html" class="active">Projekty i aranżacje</a></li>
+          {% else %}
+          <li><a href="/projekty.html">Projekty i aranżacje</a></li>
+          {% endif %}
+
+          {% if page.active == "konserwacja" %}
+            <li><a href="/konserwacja.html" class="active">Konserwacja</a></li>
+          {% else %}
+            <li><a href="/konserwacja.html">Konserwacja</a></li>
+          {% endif %}
+        </ul>
+        <!-- ##################################
+        # POLISH menu end
+        ################################## -->
         {% endif %}
-      </ul>
     </div>
 
   </div>
