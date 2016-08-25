@@ -1,13 +1,57 @@
 global:
-  hero__h1: Projects and aransations
-  hero__h2: blablabla
+  hero__h1: Design, arrangements, and monument preservation.
+  hero__h2: We connect cross generation tradition and modern technology
   hero__btn: Contact us
+
+  about__lead: We specialize in end to end projects in the areas of architecture and interior design, daring construction projects and monument preservation. We support our customers on all stages from idea visualization, to managing and coordinating complex realizations in accordance to global management standards.
+  about__p: We also design and make decorations, including &#58; paintings, carpentry and molding which involve innovative materials of our own recipe. We are experts in monument preservation, an occupation that spans two generations within our company.
+  about__span: Contact us to make your dreams a reality.
+
+  services__header: Our services
+  service1__header: Monument conservation studio
+  service1__content: We have been operating in monument conservation for 20 years. Our main specialization is preservation of sculptures and molding, however we also work with best experts in polychromies and wood.
+  service2__header: Designs and arrangements studio
+  service2__content: We design and create arrangements throughout Europe for individual and institutional customers. Their common feature is appreciation of canons of art and quality of custom made designs.
+  service3__header: Innovations
+  service3__content: In order to ensure feasibility of our custom designs, we continuously work on and improve new technologies and construction and decoration materials, like concrete and polyurethanes.
+  service__btn: Learn more
+
+  cta__header: We connect cross generation tradition and modern technology
+  cta__subheader: Ask for a project
+  cta__button: Contact us
+
+  footer: Copyrights by Art Inventis 2016 - all rights reserved.
 topbar:
   konserwacja: conservation
 langs:
   pl: Angielski
   en: English
-page:
-  hero__h1: Projekty i aranżacje
-  hero__h2: blablabla
-  hero__btn: Contact us
+pages:
+  projects:
+    h1: EN EN EN Pracownia projektów i aranżacji
+    h2: EN EN EN Łączymy wielopokoleniową tradycję i nowoczesną technologię
+    h3: EN EN EN Nagłówek związany z projektami
+
+    lp1: EN EN EN Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji do aranżacji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
+
+    lp2: EN EN EN Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami produkujemy (zobacz <a href='/innowacje.html'>sekcje innowacje</a>) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
+
+    right: EN EN EN Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność  i solidność.
+  conservation:
+    h1: EN EN EN Pracownia konserwacji sztuki
+    h2: EN EN EN Łączymy wielopokoleniową tradycję i nowoczesną technologię
+    h3: EN EN EN Nagłówek związany z konserwacją
+
+    lp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
+    lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+
+    right: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  innovations:
+    h1: EN EN EN Innowacje
+    h2: EN EN EN Innowache H2
+    h3: EN EN EN Nagłówek związany z innowacjami
+
+    lp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
+    lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+
+    right: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.

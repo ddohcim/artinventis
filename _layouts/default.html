@@ -18,7 +18,12 @@
             <div class="hero__typo">
               <h1>{% t global.hero__h1 %}</h1>
               <h2>{% t global.hero__h2 %}</h2>
+
+              {% if site.lang == "en" %}
+              <button onclick="location.href = '/contact.html';" href="contact.html" class="btn-ghost">{% t global.hero__btn %}</button>
+              {% else %}
               <button onclick="location.href = '/kontakt.html';" href="kontakt.html" class="btn-ghost">{% t global.hero__btn %}</button>
+              {% endif %}
             </div>
           </div>
         </div>
@@ -48,9 +53,9 @@
         </div>
 
         <div class="large-6 columns home-about__content">
-          <h3>Zajmujemy się kompleksową obsługa projektów w zakresie architektury i dekoracji, śmiałych realizacji budowlanych oraz konserwacji zabytków.</h3>
-          <p>Pracujemy z klientami nad wizualizacją ich pomysłów, projektujemy i produkujemy dekoracje:  m.in.sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiełów, które sami wytwarzamy. Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania. Zajmujemy sie także konserwacją zabytków, której to tradycja sięga w firmie dwóch pokoleń.
-            <span>Serdecznie zapraszamy do współpracy</span>
+          <h3>{% t global.about__lead %}</h3>
+          <p>{% t global.about__p %}
+            <span>{% t global.about__span %}</span>
             <img src="img/signatures.png" class="home-about__signatures" alt="">
           </p>
         </div>
@@ -73,28 +78,28 @@
     <!-- SECTION SERVICES START -->
     <!-- ######################################### -->
     <section class="services text-center">
-      <h2>Czym się zajmujemy?</h2>
+      <h2>{% t global.services__header %}</</h2>
       <div class="expanded row">
 
         <div class="large-4 columns">
           <img src="img/service-konserwacja.svg" alt="">
-          <h3>Pracownia konserwacji zabytków</h3>
-          <p>Od 20 lat zajmujemy się konserwacja zabytków. Nasza specjalnościa jes konserwacja rzeżby i sztukatorstwo, ale współpracujemy także z najlepszymi specjalistamiw dziedzinie polichromii idrewna.</p>
-          <button class="btn-ghost btn-small">Dowiedz się więcej</button>
+          <h3>{% t global.service1__header %}</h3>
+          <p>{% t global.service1__content %}</p>
+          <button class="btn-ghost btn-small"> {% t global.service__btn %} </button>
         </div>
 
         <div class="large-4 columns">
           <img src="img/service-projekty.svg" alt="">
-          <h3>Pracownia projektów i aranżacji</h3>
-          <p>Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność z kanonami sztuki oraz unikalny, tworzony na zamówienie projekt.</p>
-          <button class="btn-ghost btn-small">Dowiedz się więcej</button>
+          <h3>{% t global.service2__header %}</h3>
+          <p>{% t global.service2__content %}</p>
+          <button class="btn-ghost btn-small">{% t global.service__btn %}</button>
         </div>
 
         <div class="large-4 columns services__innovations">
           <img src="img/service-innowacje.svg" alt="">
-          <h3>Innowacje</h3>
-          <p>Aby zapewnic wykonalność  naszych unikalnych projektów, nieustatnie pracujemy i usprawniamy nowe technologie i materiały budlowane i dekoracyjne, takie jak beton i poliuretany.</p>
-          <button class="btn-ghost btn-small">Dowiedz się więcej</button>
+          <h3>{% t global.service3__header %}</h3>
+          <p>{% t global.service3__content %}</p>
+          <button class="btn-ghost btn-small">{% t global.service__btn %}</button>
         </div>
 
       </div>

@@ -9,14 +9,20 @@
     <!-- ######################################### -->
     <!-- SECTION HERO START -->
     <!-- ######################################### -->
+
     <section class="service">
       <div class="expanded row">
 
         <div class="large-8 large-centered columns text-center">
 
             <div class="contact__typo">
-              <h1>{{ page.h1 }}</h1>
-              <h2>{{ page.h2 }}</h2>
+              <h1>{{ site.translations[site.lang].pages.[page.active].h1 }}</h1>
+              <h2>{{ site.translations[site.lang].pages.[page.active].h2 }}</h2>
+              <!-- <div>
+                {% for item in site.translations[site.lang] %}
+                    <p>{{ item[0] }} -> {{ item[1] }}</p>
+                {% endfor %}
+              </div> -->
             </div>
 
 
@@ -47,17 +53,17 @@
       <div class="extended row">
         <div class="large-12 large-centered columns services__desc">
           <div class="wrapper">
-            <h3>{{ page.h3 }}</h3>
+            <h3>{{ site.translations[site.lang].pages.[page.active].h3 }}</h3>
           </div>
         </div>
       </div>
       <div class="extended row services__txt">
         <div class="large-6 columns">
-          <p>{{ page.lp1 }}</p>
-          <p>{{ page.lp2 }}</p>
+          <p>{{ site.translations[site.lang].pages.[page.active].lp1 }}</p>
+          <p>{{ site.translations[site.lang].pages.[page.active].lp2 }}</p>
         </div>
         <div class="large-6 columns">
-          <p>{{ page.right }}</p>
+          <p>{{ site.translations[site.lang].pages.[page.active].right }}</p>
         </div>
         </div>
       </div>
