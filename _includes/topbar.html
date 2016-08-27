@@ -8,7 +8,13 @@
     <div class="small-6 medium-2 large-2 columns">
       <div style="display:table;height:70px;">
         <div style="display:table-cell;vertical-align:middle;">
-          <a href="{{ site.baseurl }}"><img src="img/logo.svg" class="topbar__logo" alt=""></a>
+          {% if site.lang == "en" %}
+          <a href="/en/">
+          {% else %}
+          <a href="/">
+          {% endif %}
+            <img src="img/logo.svg" class="topbar__logo" alt="">
+          </a>
         </div>
       </div>
 
@@ -27,80 +33,55 @@
       <ul class="menu align-right">
         {% if site.lang == "en" %}
           {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
-          <li><a href="{{ link1 }}"><img src="{{ "/img/polish.svg" | prepend: site.baseurl_root }}" class="img-lang" alt="Polski"></a></li>
+          <li>
+            <a href="{{ link1 }}">
+              <img src="{{ "/img/polish.svg" | prepend: site.baseurl_root }}" class="img-lang" alt="Polski">
+            </a>
+          </li>
         {% else %}
           {% capture link2 %}{{ site.baseurl_root }}en{{ page.url}}{% endcapture %}
-          <li><a href="{{ link2 }}"><img src="{{ "/img/english.svg" | prepend: site.baseurl_root }}" class="img-lang" alt="English"></a></li>
+          <li>
+            <a href="{{ link2 }}">
+              <img src="{{ "/img/english.svg" | prepend: site.baseurl_root }}" class="img-lang" alt="English">
+            </a>
+          </li>
         {% endif %}
 
 
-        {% if site.lang == "en" %}
           <!-- ##################################
-          # ENGLISH menu start
+          # menu start
           ################################## -->
           {% if page.active == "contact" %}
-            <li><a href="{{ contact.html | prepend: site.baseurl_root }}" class="active">Contact</a></li>
+            <li><a href="{{ "contact.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.contact }}</a></li>
           {% else %}
-            <li><a href="{{ contact.html | prepend: site.baseurl_root }}">Contact</a></li>
+            <li><a href="{{ "contact.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.contact }}</a></li>
           {% endif %}
-          <li><a href="#">About us</a></li>
-          <li><a href="#">References</a></li>
+
+          <li><a href="#">{{ site.translations[site.lang].topbar.about }}</a></li>
+          <li><a href="#">{{ site.translations[site.lang].topbar.references }}</a></li>
 
           {% if page.active == "innovations" %}
-          <li><a href="{{ "innovations.html" | prepend: site.baseurl_root }}" class="active">Innovations</a></li>
+          <li><a href="{{ "innovations.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.innovations }}</a></li>
           {% else %}
-          <li><a href="{{ "innovations.html" | prepend: site.baseurl_root }}">Innovations</a></li>
+          <li><a href="{{ "innovations.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.innovations }}</a></li>
           {% endif %}
 
           {% if page.active == "projects" %}
-          <li><a href="{{ "projects.html" | prepend: site.baseurl_root }}" class="active">Projects and aransations</a></li>
+          <li><a href="{{ "projects.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.projects }}</a></li>
           {% else %}
-          <li><a href="{{ "projects.html" | prepend: site.baseurl_root }}">Projects and aransations</a></li>
+          <li><a href="{{ "projects.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.projects }}</a></li>
           {% endif %}
 
           {% if page.active == "conservation" %}
-            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}" class="active">Conservation</a></li>
+            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.conservation }}</a></li>
           {% else %}
-            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}">Conservation</a></li>
+            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.conservation }}</a></li>
           {% endif %}
         </ul>
         <!-- ##################################
         # ENGLISH menu end
         ################################## -->
-        {% else %}
-          <!-- ##################################
-          # POLISH menu start
-          ################################## -->
-          {% if page.active == "contact" %}
-            <li><a href="/contact.html" class="active">Kontakt</a></li>
-          {% else %}
-            <li><a href="/contact.html">Kontakt</a></li>
-          {% endif %}
-          <li><a href="#">O nas</a></li>
-          <li><a href="#">Referencje</a></li>
 
-          {% if page.active == "innowacje" %}
-          <li><a href="/innovations.html" class="active">Innowacje</a></li>
-          {% else %}
-          <li><a href="/innovations.html">Innowacje</a></li>
-          {% endif %}
-
-          {% if page.active == "projekty" %}
-          <li><a href="/projects.html" class="active">Projekty i aranżacje</a></li>
-          {% else %}
-          <li><a href="/projects.html">Projekty i aranżacje</a></li>
-          {% endif %}
-
-          {% if page.active == "konserwacja" %}
-            <li><a href="/conservation.html" class="active">Konserwacja</a></li>
-          {% else %}
-            <li><a href="/conservation.html">Konserwacja</a></li>
-          {% endif %}
-        </ul>
-        <!-- ##################################
-        # POLISH menu end
-        ################################## -->
-        {% endif %}
     </div>
 
   </div>

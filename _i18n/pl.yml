@@ -1,7 +1,7 @@
 global:
   hero__h1: Projekty, aranżacje oraz konserwacja zabytków
   hero__h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
-  hero__btn: Skontaktuj się z nami
+  hero__btn: Zapytaj o projekt
 
   about__lead: Zajmujemy się kompleksową obsługa projektów w zakresie architektury i dekoracji, śmiałych realizacji budowlanych oraz konserwacji zabytków.
   about__p: Pracujemy z klientami nad wizualizacją ich pomysłów, projektujemy i produkujemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami wytwarzamy. Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania. Zajmujemy sie także konserwacją zabytków, której to tradycja sięga w firmie dwóch pokoleń.
@@ -18,7 +18,7 @@ global:
 
   cta__header: Łączymy miłość do sztuki, wiedzę oraz doświadczenie
   cta__subheader: Zapytaj o projekt
-  cta__button: Skontaktuj się z nami
+  cta__button: Zapytaj o projekt
 
   footer: Copyrights by Art Inventis 2016 - Wszelkie prawa zastrzeżone.
 topbar:
@@ -28,32 +28,40 @@ langs:
   pl: Angielski
   en: English
 
+topbar:
+  contact: Kontakt
+  conservation: Konserwacja
+  projects: Projekty i aranżacje
+  innovations: Innowacje
+  references: Referencje
+  about: O nas
+
 pages:
   projects:
     h1: Pracownia projektów i aranżacji
     h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
     h3: Nagłówek związany z projektami
 
-    lp1: Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji do aranżacji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
+    lp1: Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
 
-    lp2: Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami produkujemy (zobacz <a href='/innowacje.html'>sekcje innowacje</a>) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
+    lp2: Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje &#58;  m.in.sztukaterie, malowidła, stolarkę także.
 
-    right: Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu
+    rp1: Wiele naszych projektów realizujemy przy użyciu nowoczesnych technologii i materiełów, które sami produkujemy (zobacz sekcje innowacje) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
+    rp2: Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność i solidność. Ze wględu na fakt, że część naszych realizacji ma charakter prywatny, w referencjach znajdą Pańtstwo tylko wybrane projekty o charekterze publicznym.
   conservation:
-    h1: Pracownia konserwacji sztuki
-    h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
+    h1: Pracownia konserwacji zabytków
+    h2: Sztuka i rzemiosło jest nasza pasją, której tradycja w naszej pracowni sięga dwóch pokoleń
     h3: Nagłówek związany z konserwacją
 
-    lp1: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
-    lp2: And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+    lp1: Od ponad 20 lat zajmujemy się głównie konserwacją budynków, rzeźby i sztukaterii. Współpracujemy także z autorytetami w dziedzinie konserwacji malarstwa, drewna, metali, aby zapewnic naszym klientom kompeksową obsługę.
 
-    right: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+    rp1: Mamy dziesiątki realizacji w całej Polsce. Cześc z nich mogą Państwo znaleźć w sekcji referencje.
   innovations:
-    h1: Innowacje
-    h2: Innowache H2
+    h1: Innowacje budowlane
+    h2: Laboratorium technologii i nowych materiałów
     h3: Nagłówek związany z innowacjami
 
-    lp1: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
-    lp2: And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+    lp1: Poza znajomością tradycyjnych technik, nieustannie pracujemy i usprawniamy nowe technologie i materiały budlowane i dekoracyjne, takie jak beton i poliuretany.
+    lp2:
 
-    right: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+    rp1: Dzięki właściwosciom tych materiałów jesteśmy w stanie zrealizwać projekty, które dla innych sąniemożliwe. Ciągle rozwijamy naszą wiedzę, która znajduje zastosowanie w wielu realizacjach w Polsce i za granicą.
