@@ -62,3 +62,13 @@ pages:
     lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
 
     rp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  contact:
+    h1: Contact us
+    h2: You are welcome to fill in the form and contact us
+    name: Name
+    mail: E-mail adress
+    content: Message
+    content__placeholder: How can we help?
+    send: Send
+    modal__h1: Message sent
+    modal__p: We will reply as soon as it's possible

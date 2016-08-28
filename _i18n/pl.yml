@@ -65,3 +65,13 @@ pages:
     lp2:
 
     rp1: Dzięki właściwosciom tych materiałów jesteśmy w stanie zrealizwać projekty, które dla innych sąniemożliwe. Ciągle rozwijamy naszą wiedzę, która znajduje zastosowanie w wielu realizacjach w Polsce i za granicą.
+  contact:
+    h1: Kontakt
+    h2: Zapraszamy do wypełnienia formularza w celu konsultacji bądź wyceny
+    name: Imię i nazwisko
+    mail: Adres e-mail
+    content: Treść wiadomości
+    content__placeholder: W czym możemy pomóc?
+    send: Wyślij wiadomość
+    modal__h1: Wiadomość wysłana
+    modal__p: Odpowiemy najszybciej jak to tylko możliwe.
