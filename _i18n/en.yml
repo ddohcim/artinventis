@@ -20,6 +20,10 @@ global:
   cta__subheader: Ask for a project
   cta__button: Enquire about project
 
+  contact__header: Contact us
+  contact__telephone: Telephone
+
+
   footer: Copyrights by Art Inventis 2016 - all rights reserved.
 langs:
   pl: Angielski

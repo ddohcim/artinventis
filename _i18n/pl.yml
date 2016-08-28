@@ -20,6 +20,9 @@ global:
   cta__subheader: Zapytaj o projekt
   cta__button: Zapytaj o projekt
 
+  contact__header: Skontaktuj się z nami
+  contact__telephone: Telefon
+
   footer: Copyrights by Art Inventis 2016 - Wszelkie prawa zastrzeżone.
 topbar:
   konserwacja: konserwacja
