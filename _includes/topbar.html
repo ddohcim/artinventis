@@ -9,9 +9,9 @@
       <div style="display:table;height:70px;">
         <div style="display:table-cell;vertical-align:middle;">
           {% if site.lang == "en" %}
-          <a href="/en/">
+            <a href="/en/">
           {% else %}
-          <a href="/">
+            <a href="/">
           {% endif %}
             <img src="img/logo.svg" class="topbar__logo" alt="">
           </a>
@@ -72,10 +72,10 @@
           <li><a href="{{ "projects.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.projects }}</a></li>
           {% endif %}
 
-          {% if page.active == "conservation" %}
-            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.conservation }}</a></li>
+          {% if page.active == "conservations" %}
+            <li><a href="{{ "conservations.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.conservation }}</a></li>
           {% else %}
-            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.conservation }}</a></li>
+            <li><a href="{{ "conservations.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.conservation }}</a></li>
           {% endif %}
         </ul>
         <!-- ##################################

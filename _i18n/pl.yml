@@ -24,8 +24,6 @@ global:
   contact__telephone: Telefon
 
   footer: Copyrights by Art Inventis 2016 - Wszelkie prawa zastrzeżone.
-topbar:
-  konserwacja: konserwacja
 
 langs:
   pl: Angielski
@@ -39,42 +37,53 @@ topbar:
   references: Referencje
   about: O nas
 
-pages:
-  projects:
-    h1: Pracownia projektów i aranżacji
-    h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
-    h3: Nagłówek związany z projektami
+projects:
+  h1: Pracownia projektów i aranżacji
+  h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
+  h3: Nagłówek związany z projektami
 
-    lp1: Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
+  lp1: Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
 
-    lp2: Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje &#58;  m.in.sztukaterie, malowidła, stolarkę także.
+  lp2: Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje &#58;  m.in.sztukaterie, malowidła, stolarkę także.
 
-    rp1: Wiele naszych projektów realizujemy przy użyciu nowoczesnych technologii i materiełów, które sami produkujemy (zobacz sekcje innowacje) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
-    rp2: Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność i solidność. Ze wględu na fakt, że część naszych realizacji ma charakter prywatny, w referencjach znajdą Pańtstwo tylko wybrane projekty o charekterze publicznym.
-  conservation:
-    h1: Pracownia konserwacji zabytków
-    h2: Sztuka i rzemiosło jest nasza pasją, której tradycja w naszej pracowni sięga dwóch pokoleń
-    h3: Nagłówek związany z konserwacją
+  rp1: Wiele naszych projektów realizujemy przy użyciu nowoczesnych technologii i materiełów, które sami produkujemy (zobacz sekcje innowacje) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
+  rp2: Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność i solidność. Ze wględu na fakt, że część naszych realizacji ma charakter prywatny, w referencjach znajdą Pańtstwo tylko wybrane projekty o charekterze publicznym.
 
-    lp1: Od ponad 20 lat zajmujemy się głównie konserwacją budynków, rzeźby i sztukaterii. Współpracujemy także z autorytetami w dziedzinie konserwacji malarstwa, drewna, metali, aby zapewnic naszym klientom kompeksową obsługę.
+conservations:
+  h1: Pracownia konserwacji zabytków
+  h2: Sztuka i rzemiosło jest nasza pasją, której tradycja w naszej pracowni sięga dwóch pokoleń
+  h3: Nagłówek związany z konserwacją
 
-    rp1: Mamy dziesiątki realizacji w całej Polsce. Cześc z nich mogą Państwo znaleźć w sekcji referencje.
-  innovations:
-    h1: Innowacje budowlane
-    h2: Laboratorium technologii i nowych materiałów
-    h3: Nagłówek związany z innowacjami
+  lp1: Od ponad 20 lat zajmujemy się głównie konserwacją budynków, rzeźby i sztukaterii. Współpracujemy także z autorytetami w dziedzinie konserwacji malarstwa, drewna, metali, aby zapewnic naszym klientom kompeksową obsługę.
 
-    lp1: Poza znajomością tradycyjnych technik, nieustannie pracujemy i usprawniamy nowe technologie i materiały budlowane i dekoracyjne, takie jak beton i poliuretany.
-    lp2:
+  rp1: Mamy dziesiątki realizacji w całej Polsce. Cześc z nich mogą Państwo znaleźć w sekcji referencje.
 
-    rp1: Dzięki właściwosciom tych materiałów jesteśmy w stanie zrealizwać projekty, które dla innych sąniemożliwe. Ciągle rozwijamy naszą wiedzę, która znajduje zastosowanie w wielu realizacjach w Polsce i za granicą.
-  contact:
-    h1: Kontakt
-    h2: Zapraszamy do wypełnienia formularza w celu konsultacji bądź wyceny
-    name: Imię i nazwisko
-    mail: Adres e-mail
-    content: Treść wiadomości
-    content__placeholder: W czym możemy pomóc?
-    send: Wyślij wiadomość
-    modal__h1: Wiadomość wysłana
-    modal__p: Odpowiemy najszybciej jak to tylko możliwe.
+conservation:
+  h1: Pracownia konserwacji zabytków
+  h2: Sztuka i rzemiosło jest nasza pasją, której tradycja w naszej pracowni sięga dwóch pokoleń
+  h3: Nagłówek związany z konserwacją
+
+  lp1: Od ponad 20 lat zajmujemy się głównie konserwacją budynków, rzeźby i sztukaterii. Współpracujemy także z autorytetami w dziedzinie konserwacji malarstwa, drewna, metali, aby zapewnic naszym klientom kompeksową obsługę.
+
+  rp1: Mamy dziesiątki realizacji w całej Polsce. Cześc z nich mogą Państwo znaleźć w sekcji referencje.
+
+innovations:
+  h1: Innowacje budowlane
+  h2: Laboratorium technologii i nowych materiałów
+  h3: Nagłówek związany z innowacjami
+
+  lp1: Poza znajomością tradycyjnych technik, nieustannie pracujemy i usprawniamy nowe technologie i materiały budlowane i dekoracyjne, takie jak beton i poliuretany.
+  lp2: opopopop
+
+  rp1: Dzięki właściwosciom tych materiałów jesteśmy w stanie zrealizwać projekty, które dla innych sąniemożliwe. Ciągle rozwijamy naszą wiedzę, która znajduje zastosowanie w wielu realizacjach w Polsce i za granicą.
+
+contact:
+  h1: Kontakt
+  h2: Zapraszamy do wypełnienia formularza w celu konsultacji bądź wyceny
+  name: Imię i nazwisko
+  mail: Adres e-mail
+  content: Treść wiadomości
+  content__placeholder: W czym możemy pomóc?
+  send: Wyślij wiadomość
+  modal__h1: Wiadomość wysłana
+  modal__p: Odpowiemy najszybciej jak to tylko możliwe.

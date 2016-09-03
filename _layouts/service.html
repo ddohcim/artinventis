@@ -16,8 +16,10 @@
         <div class="large-8 large-centered columns text-center">
 
             <div class="contact__typo">
-              <h1>{{ site.translations[site.lang].pages[page.active].h1 }}</h1>
-              <h2>{{ site.translations[site.lang].pages[page.active].h2 }}</h2>
+              <!-- <div>{{ site | inspect }}</div> -->
+              <h1>{{ site.translations[site.lang][page.active].h1 }}</h1>
+              <!-- <h1>{{ site.translations.pl.conservation.h1 | inspect }}</h1> -->
+              <h2>{{ site.translations[site.lang][page.active].h2 }}</h2>
               <!-- <div>
                 {% for item in site.translations[site.lang] %}
                     <p>{{ item[0] }} -> {{ item[1] }}</p>
@@ -53,18 +55,18 @@
       <div class="extended row">
         <div class="large-12 large-centered columns services__desc">
           <div class="wrapper">
-            <h3>{{ site.translations[site.lang].pages[page.active].h3 }}</h3>
+            <h3>{{ site.translations[site.lang][page.active].h3 }}</h3>
           </div>
         </div>
       </div>
       <div class="extended row services__txt">
         <div class="large-6 columns">
-          <p>{{ site.translations[site.lang].pages[page.active].lp1 }}</p>
-          <p>{{ site.translations[site.lang].pages[page.active].lp2 }}</p>
+          <p>{{ site.translations[site.lang][page.active].lp1 }}</p>
+          <p>{{ site.translations[site.lang][page.active].lp2 }}</p>
         </div>
         <div class="large-6 columns">
-          <p>{{ site.translations[site.lang].pages[page.active].rp1 }}</p>
-          <p>{{ site.translations[site.lang].pages[page.active].rp2 }}</p>
+          <p>{{ site.translations[site.lang][page.active].rp1 }}</p>
+          <p>{{ site.translations[site.lang][page.active].rp2 }}</p>
         </div>
         </div>
       </div>

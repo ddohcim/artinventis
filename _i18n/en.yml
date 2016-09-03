@@ -23,7 +23,6 @@ global:
   contact__header: Contact us
   contact__telephone: Telephone
 
-
   footer: Copyrights by Art Inventis 2016 - all rights reserved.
 langs:
   pl: Angielski
@@ -37,42 +36,54 @@ topbar:
   references: Our clients
   about: About us
 
-pages:
-  projects:
-    h1: EN EN EN Pracownia projektów i aranżacji
-    h2: EN EN EN Łączymy wielopokoleniową tradycję i nowoczesną technologię
-    h3: EN EN EN Nagłówek związany z projektami
+projects:
+  h1: EN EN EN Pracownia projektów i aranżacji
+  h2: EN EN EN Łączymy wielopokoleniową tradycję i nowoczesną technologię
+  h3: EN EN EN Nagłówek związany z projektami
 
-    lp1: EN EN EN Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji do aranżacji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
+  lp1: EN EN EN Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji do aranżacji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
 
-    lp2: EN EN EN Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami produkujemy (zobacz <a href='/innowacje.html'>sekcje innowacje</a>) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
+  lp2: EN EN EN Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami produkujemy (zobacz <a href='/innowacje.html'>sekcje innowacje</a>) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
 
-    rp1: EN EN EN Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność  i solidność.
-  innovations:
-    h1: EN EN EN Innowacje
-    h2: EN EN EN Innowache H2
-    h3: EN EN EN Nagłówek związany z innowacjami
+  rp1: EN EN EN Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność  i solidność.
 
-    lp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
-    lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+conservations:
+  h1: Art conservation
+  h2: We blabla
+  h3: Header conservation
 
-    rp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
-  conservation:
-    h1: EN EN EN Pracownia konserwacji sztuki
-    h2: EN EN EN Łączymy wielopokoleniową tradycję i nowoczesną technologię
-    h3: EN EN EN Nagłówek związany z konserwacją
+  lp1: EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
+  lp2: EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
 
-    lp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
-    lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  rp1: EN ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
 
-    rp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
-  contact:
-    h1: Contact us
-    h2: You are welcome to fill in the form and contact us
-    name: Name
-    mail: E-mail adress
-    content: Message
-    content__placeholder: How can we help?
-    send: Send
-    modal__h1: Message sent
-    modal__p: We will reply as soon as it's possible
+
+conservation:
+  h1: Art conservation
+  h2: We blabla
+  h3: Header conservation
+
+  lp1: EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
+  lp2: EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+
+  rp1: EN ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+
+innovations:
+  h1: EN EN EN Innowacje
+  h2: EN EN EN Innowache H2
+  h3: EN EN EN Nagłówek związany z innowacjami
+
+  lp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
+  lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+
+  rp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+contact:
+  h1: Contact us
+  h2: You are welcome to fill in the form and contact us
+  name: Name
+  mail: E-mail adress
+  content: Message
+  content__placeholder: How can we help?
+  send: Send
+  modal__h1: Message sent
+  modal__p: We will reply as soon as it's possible
