@@ -1,0 +1,75 @@
+body.references__view{
+  section.references{
+    padding:5rem 0;
+    // padding-bottom:8rem;
+  }
+  button{
+    margin-top:2rem;
+  }
+  section.service__content{
+    background-color: $brown;
+  }
+
+}
+
+.references__featured{
+  padding-bottom:40px;
+  .row{
+    margin-bottom:30px;
+  }
+  img{
+    -webkit-box-shadow: 0px 0px 50px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow:    0px 0px 50px 0px rgba(50, 50, 50, 0.1);
+    box-shadow:         0px 0px 50px 0px rgba(50, 50, 50, 0.1);
+  }
+}
+
+.references__featured__item{
+  height:300px;
+  padding:0 15px;
+}
+.featured__label{
+  background-color:$brown;
+  padding:30px;
+}
+.non-featured__label{
+  background-color:$grey-bg;
+  padding:30px;
+  .featured__label__place{
+    color:$brown;
+  }
+}
+
+.featured__label__place, .featured__label__where{
+  display:block;
+}
+.featured__label__place{
+  text-transform: uppercase;
+  font-weight:bold;
+  font-size:0.8rem;
+  margin:1rem 0;
+  color:white;
+  &:after{
+    content:'';
+    height:2px;
+    width:50px;
+    background-color:$gold;
+    display:block;
+    margin:0 auto;
+    margin-top:18px;
+  }
+}
+.featured__label__what{
+  font-family: $pt-serif;
+  margin-bottom:1rem;
+  color:$grey;
+}
+
+.non-featured__label{
+  @include transition(all .3s ease);
+  &:hover{
+    -webkit-box-shadow: 0px 12px 29px 0px rgba(50, 50, 50, 0.2);
+    -moz-box-shadow:    0px 12px 29px 0px rgba(50, 50, 50, 0.2);
+    box-shadow:         0px 12px 29px 0px rgba(50, 50, 50, 0.2);
+  }
+}

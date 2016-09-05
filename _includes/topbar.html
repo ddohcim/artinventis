@@ -58,7 +58,13 @@
           {% endif %}
 
           <li><a href="#">{{ site.translations[site.lang].topbar.about }}</a></li>
-          <li><a href="#">{{ site.translations[site.lang].topbar.references }}</a></li>
+
+          {% if page.active == "references" %}
+            <li><a href="{{ "references.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.references }}</a></li>
+          {% else %}
+            <li><a href="{{ "references.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.references }}</a></li>
+          {% endif %}
+
 
           {% if page.active == "innovations" %}
           <li><a href="{{ "innovations.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.innovations }}</a></li>
