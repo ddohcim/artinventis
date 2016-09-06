@@ -1,5 +1,5 @@
-<div class="admin__info">
-</div>
+<!-- <div class="admin__info">
+</div> -->
 
 <div data-sticky-container>
 <div class="topBar" data-sticky data-options="marginTop:0;" style="width:100%">
@@ -78,10 +78,10 @@
           <li><a href="{{ "projects.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.projects }}</a></li>
           {% endif %}
 
-          {% if page.active == "conservations" %}
-            <li><a href="{{ "conservations.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.conservation }}</a></li>
+          {% if page.active == "conservation" %}
+            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.conservation }}</a></li>
           {% else %}
-            <li><a href="{{ "conservations.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.conservation }}</a></li>
+            <li><a href="{{ "conservation.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.conservation }}</a></li>
           {% endif %}
         </ul>
         <!-- ##################################
