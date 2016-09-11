@@ -4,23 +4,23 @@ global:
   hero__btn: Zapytaj o projekt
 
   about__lead: Zajmujemy się kompleksową obsługa projektów w zakresie architektury i dekoracji, śmiałych realizacji budowlanych oraz konserwacji zabytków.
-  about__p: Pracujemy z klientami nad wizualizacją ich pomysłów, projektujemy i produkujemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami wytwarzamy. Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania. Zajmujemy sie także konserwacją zabytków, której to tradycja sięga w firmie dwóch pokoleń.
+  about__p: Pracujemy z klientami nad wizualizacją ich pomysłów, projektujemy i produkujemy dekoracje m.in. sztukaterie, malowidła, stolarkę, także przy użyciu nowoczesnych materiałów, które sami wytwarzamy. Kierujemy i koordynujemy kompleksowymi realizacjami, zgodnie z globalnymi standardami zarządzania. Zajmujemy się także konserwacją zabytków, której to tradycja sięga w firmie dwóch pokoleń.
   about__span: Serdecznie zapraszamy do współpracy
 
   services__header: Czym się zajmujemy?
   service1__header: Pracownia konserwacji zabytków
-  service1__content: Od 20 lat zajmujemy się konserwacja zabytków. Nasza specjalnościa jes konserwacja rzeżby i sztukatorstwo, ale współpracujemy także z najlepszymi specjalistamiw dziedzinie polichromii i drewna.
+  service1__content: Od 20 lat zajmujemy się konserwacją zabytków. Nasza specjalnością jest konserwacja rzeźby i sztukatorstwo, ale współpracujemy także z najlepszymi specjalistami w dziedzinie polichromii i drewna.
   service2__header: Pracownia projektów i aranżacji
   service2__content: Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność z kanonami sztuki oraz unikalny, tworzony na zamówienie projekt.
-  service3__header: Innowacje
-  service3__content: Aby zapewnic wykonalność naszych unikalnych projektów, nieustatnie pracujemy i usprawniamy nowe technologie i materiały budlowane i dekoracyjne, takie jak beton i poliuretany.
+  service3__header: Innowacje budowlane
+  service3__content: Aby zapewnić wykonalność naszych unikalnych projektów, nieustannie opracowujemy i usprawniamy nowe technologie i materiały budowlane i dekoracyjne, takie jak beton i poliuretany.
   service__btn: Dowiedz się więcej
 
   cta__header: Łączymy miłość do sztuki, wiedzę oraz doświadczenie
-  cta__subheader: Zapytaj o projekt
   cta__button: Zapytaj o projekt
 
-  contact__header: Skontaktuj się z nami
+  contact__header1: Pracownia
+  contact__header2: Siedziba firmy
   contact__telephone: Telefon
 
   footer: Copyrights by Art Inventis 2016 - Wszelkie prawa zastrzeżone.
@@ -40,33 +40,33 @@ topbar:
 projects:
   h1: Pracownia projektów i aranżacji
   h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
-  h3: Nagłówek związany z projektami
+  h3: Śmiałe projekty
 
-  lp1: Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
+  lp1: Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji to trafili Państwo pod właściwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
 
-  lp2: Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje &#58;  m.in.sztukaterie, malowidła, stolarkę także.
+  lp2: Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkujemy dekoracje &#58;  m.in. sztukaterie, malowidła, stolarkę także.
 
-  rp1: Wiele naszych projektów realizujemy przy użyciu nowoczesnych technologii i materiełów, które sami produkujemy (zobacz sekcje innowacje) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
-  rp2: Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność i solidność. Ze wględu na fakt, że część naszych realizacji ma charakter prywatny, w referencjach znajdą Pańtstwo tylko wybrane projekty o charekterze publicznym.
+  rp1: Wiele naszych projektów realizujemy przy użyciu nowoczesnych technologii i materiałów, które sami produkujemy (zobacz sekcje innowacje) dzięki czemu jesteśmy wykonać każdy, nawet najbardziej śmiały projekt.
+  rp2: Kierujemy i koordynujemy kompleksowymi realizacjami, zgodnie z globalnymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwyższe standardy współpracy, efektywność i solidność. Ze względu na fakt, że część naszych realizacji ma charakter prywatny, w referencjach znajdą Państwo tylko wybrane projekty o charakterze publicznym.
 
 conservation:
   h1: Pracownia konserwacji zabytków
-  h2: Sztuka i rzemiosło jest nasza pasją, której tradycja w naszej pracowni sięga dwóch pokoleń
-  h3: Nagłówek związany z konserwacją
+  h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
+  h3: Sztuka i tradycja
 
-  lp1: Od ponad 20 lat zajmujemy się głównie konserwacją budynków, rzeźby i sztukaterii. Współpracujemy także z autorytetami w dziedzinie konserwacji malarstwa, drewna, metali, aby zapewnic naszym klientom kompeksową obsługę.
+  lp1: Rzemiosło jest naszą prawdziwą pasją, której tradycja w naszej pracowni sięga dwóch pokoleń. Od ponad 20 lat zajmujemy się głównie konserwacją budynków, rzeźby i sztukaterii.
 
-  rp1: Mamy dziesiątki realizacji w całej Polsce. Cześc z nich mogą Państwo znaleźć w sekcji referencje.
+  rp1: Współpracujemy także z autorytetami w dziedzinie konserwacji malarstwa, drewna, metali, aby zapewnić naszym klientom kompleksową obsługę. Mamy dziesiątki realizacji w całej Polsce. Wybrane realizacje, mogą Państwo znaleźć w sekcji referencje.
 
 innovations:
   h1: Innowacje budowlane
-  h2: Laboratorium technologii i nowych materiałów
-  h3: Nagłówek związany z innowacjami
+  h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
+  h3: Laboratorium nowych materiałów
 
-  lp1: Poza znajomością tradycyjnych technik, nieustannie pracujemy i usprawniamy nowe technologie i materiały budlowane i dekoracyjne, takie jak beton i poliuretany.
-  lp2: opopopop
+  lp1: Poza znajomością tradycyjnych technik, nieustannie pracujemy i usprawniamy nowe technologie i materiały budowlane i dekoracyjne, takie jak beton i poliuretany.
+  lp2: Mamy własne laboratorium, ale współpracujemy także, ze specjalistami z dziedziny chemii oraz technologii budowlanych.
 
-  rp1: Dzięki właściwosciom tych materiałów jesteśmy w stanie zrealizwać projekty, które dla innych sąniemożliwe. Ciągle rozwijamy naszą wiedzę, która znajduje zastosowanie w wielu realizacjach w Polsce i za granicą.
+  rp1: Dzięki właściwościom naszych materiałów jesteśmy w stanie zrealizować projekty, które dla innych są niemożliwe. Ciągle rozwijamy naszą wiedzę, która znajduje zastosowanie w wielu realizacjach w Polsce i za granicą.
 
 contact:
   h1: Kontakt
