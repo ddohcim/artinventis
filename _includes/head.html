@@ -3,7 +3,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{{ page.title }}</title>
+  {% if site.lang == "en" %}
+    <title>{{ page.title_en }}</title>
+  {% else %}
+    <title>{{ page.title }}</title>
+  {% endif %}
+
   <meta name="description" content="{{ page.description }}">
   <meta name="keywords" content="artinventis, konserwacja, konserwacja zabytków, projekty architektoniczne, archtektura, innowacje, sztukatorstwo, budowa">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl_root }}">
