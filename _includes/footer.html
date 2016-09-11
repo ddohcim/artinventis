@@ -12,7 +12,25 @@
     {% t global.footer %}
   </div>
   <div class="large-6 columns footer__authors">
-    <a href="http://piotrkmita.pl">UI/UX Designer - Piotr Kmita</a>
+    <a href="http://piotrkmita.pl">
+      {% if page.active == "index" %}
+      Piotr Kmita UI/UX Designer
+      {% elsif page.active == "conservation" %}
+      UI/UX Designer Warszawa
+      {% elsif page.active == "contact" %}
+      UI UX Designer Piotr Kmita
+      {% elsif page.active == "about" %}
+      UI Designer Piotr Kmita
+      {% elsif page.active == "innovations" %}
+      UX Designer Piotr Kmita
+      {% elsif page.active == "projects" %}
+      Designed by PiotrKmita.pl
+      {% elsif page.active == "references" %}
+      UI/UX Designer Warsaw
+      {% else %}
+      Piotr Kmita UI/UX Designer
+      {% endif %}
+    </a>
     <a href="http://invinsys.com">Innovation certification</a>
   </div>
 </footer>
