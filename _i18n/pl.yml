@@ -35,7 +35,7 @@ topbar:
   projects: Projekty i aranżacje
   innovations: Innowacje
   references: Referencje
-  about: O nas
+  us: O nas
 
 projects:
   h1: Pracownia projektów i aranżacji
@@ -78,3 +78,11 @@ contact:
   send: Wyślij wiadomość
   modal__h1: Wiadomość wysłana
   modal__p: Odpowiemy najszybciej jak to tylko możliwe.
+
+about:
+  header: Bartłomiej Szefer
+  subheader: Założyciel Art Inventis
+  p1: Pragmatyk, projektant, rzeźbiarz, specjalista w dziedzinie sztukatorstwa, technik konserwatorskich i historii sztuki, zwolennik tradycyjnych sprawdzonych rozwiązań technicznych. Cechuje go niezwykła dbałość o szczegóły nie ograniczając umiejętności analitycznego spojrzenia na całokształt zagadnienia. Ma 15 lat doświadczenia jako sztukator i konserwator.
+  p2: Prywatnie taternik, amator kolarstwa przełajowego, kolekcjoner muzyki, miłośnik literatury.
+  team__header: Zespół Art Inventis
+  team__p: Nasz zespół składa się z doświadczonych konserwatorów sztuki, architektów, techników budownictwa, chemii oraz konstruktorów.

@@ -57,10 +57,10 @@
             <li><a href="{{ "contact.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.contact }}</a></li>
           {% endif %}
 
-          {% if page.active == "about" %}
-            <li><a href="{{ "about.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.about }}</a></li>
+          {% if page.active == "us" %}
+            <li><a href="{{ "us.html" | prepend: site.baseurl_root }}" class="active">{{ site.translations[site.lang].topbar.us }}</a></li>
           {% else %}
-            <li><a href="{{ "about.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.about }}</a></li>
+            <li><a href="{{ "us.html" | prepend: site.baseurl_root }}">{{ site.translations[site.lang].topbar.us }}</a></li>
           {% endif %}
 
           {% if page.active == "references" %}
