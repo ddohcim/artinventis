@@ -1,0 +1,27 @@
+.about__portrait{
+  background-image: url('../img/portrait.jpg');
+  height:600px;
+  background-size:cover;
+}
+
+.about__content{
+  padding:6rem 4rem;
+  h2{
+    margin-top:0;
+    margin-bottom:2rem;
+  }
+}
+
+.about__team{
+  padding:4rem 0;
+  background-color:$grey-bg;
+  h2{
+    color:$brown;
+    font-family: $pt-serif;
+    margin:0;
+    border-right:1px solid $grey-border;
+  }
+  p{
+    margin:0;
+  }
+}
