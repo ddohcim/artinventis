@@ -40,8 +40,8 @@ section.services{
   }
   p{
     color:$grey;
-    font-size:0.9rem;
-    line-height: 1.278rem;
+    font-size:1.1rem;
+    line-height: 1.7rem;
     margin:2rem 0;
   }
 }
@@ -49,5 +49,17 @@ section.services{
 .services__innovations{
   img{
     padding:22px 0;
+  }
+}
+
+.services__ornament{
+  height:30px;
+  margin:0 1.4rem;
+}
+
+div.services__txt{
+  p{
+    font-size:1.1rem;
+    line-height: 1.7rem;
   }
 }

@@ -19,7 +19,7 @@ global:
   cta__header: Łączymy miłość do sztuki, wiedzę oraz doświadczenie
   cta__button: Zapytaj o projekt
 
-  contact__header1: Pracownia
+  contact__header1: Pracownia i biuro
   contact__header2: Siedziba firmy
   contact__telephone: Telefon
 
@@ -86,3 +86,8 @@ about:
   p2: Prywatnie taternik, amator kolarstwa przełajowego, kolekcjoner muzyki, miłośnik literatury.
   team__header: Zespół Art Inventis
   team__p: Nasz zespół składa się z doświadczonych konserwatorów sztuki, architektów, techników budownictwa, chemii oraz konstruktorów.
+
+references:
+  ref__header: Referencje
+  ref__subheader: Poniższe realizacje zostały wybrane spośród kilkuset inwestycji. Pominąć musieliśmy szereg realizacji w Polsce i w Europie ze względu na ochronę prywatności naszych klientów.
+  ref__subheader2: Pozostałe realizacje

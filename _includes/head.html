@@ -9,8 +9,18 @@
     <title>{{ page.title }}</title>
   {% endif %}
 
-  <meta name="description" content="{{ page.description }}">
-  <meta name="keywords" content="artinventis, konserwacja, konserwacja zabytków, projekty architektoniczne, archtektura, innowacje, sztukatorstwo, budowa">
+  {% if site.lang == "en" %}
+    <meta name="description" content="{{ page.description_en }}">
+  {% else %}
+    <meta name="description" content="{{ page.description }}">
+  {% endif %}
+
+  {% if site.lang == "en" %}
+    <meta name="keywords" content="artinventis, conservation, konserwacja zabytków, projekty architektoniczne, archtektura, innowacje, sztukatorstwo, budowa">
+  {% else %}
+    <meta name="keywords" content="artinventis, conservation of monuments, architectural design, architecture, innovation, stucco, construction">
+  {% endif %}
+
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl_root }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl_root | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
