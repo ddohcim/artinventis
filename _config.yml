@@ -1,4 +1,3 @@
-
 # Site settings
 email: kontakt@artinventis.pl
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -6,6 +5,8 @@ url: "http://artinventis.pl" # the base hostname & protocol for your site
 languages: ["pl", "en"]
 exclude_from_localizations: ["javascript", "images", "css"]
 
+plugins:
+  - jekyll-multiple-languages-plugin
 
 # Build settings
 markdown: kramdown
