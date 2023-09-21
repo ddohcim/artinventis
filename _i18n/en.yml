@@ -1,92 +1,93 @@
 global:
-  hero__h1: Design, arrangements, and monument preservation.
-  hero__h2: We connect cross generation tradition and modern technology
-  hero__btn: Enquire about project
+  hero__h1: Design, Arrangements, and Monument Preservation
+  hero__h2: We connect cross-generational tradition and modern technology
+  hero__btn: Enquire about the project
 
-  about__lead: We specialize in end to end projects in the areas of architecture and interior design, daring construction projects and monument preservation.
-  about__p: We support our customers on all stages from idea visualization, to managing and coordinating complex realizations in accordance to global management standards. We also design and make decorations, including &#58; paintings, carpentry and molding which involve innovative materials of our own recipe. We are experts in monument preservation, an occupation that spans two generations within our company.
+  about__lead: We specialize in end-to-end projects in the areas of architecture and interior design, daring construction projects, and monument preservation.
+  about__p: We support our customers at all stages, from idea visualization to managing and coordinating complex realizations in accordance with global management standards. We also design and create decorations, including paintings, carpentry, and molding, which involve innovative materials of our own recipe. We are experts in monument preservation, an occupation that spans two generations within our company.
   about__span: Contact us to make your dreams a reality.
 
-  services__header: Our services
-  service1__header: Monument conservation studio
-  service1__content: We have been operating in monument conservation for 20 years. Our main specialization is preservation of sculptures and molding, however we also work with best experts in polychromies and wood.
-  service2__header: Designs and arrangements studio
-  service2__content: We design and create arrangements throughout Europe for individual and institutional customers. Their common feature is appreciation of canons of art and quality of custom made designs.
+  services__header: Our Services
+  service1__header: Monument Conservation Studio
+  service1__content: We have been operating in monument conservation for 20 years. Our main specialization is the preservation of sculptures and molding, however, we also work with the best experts in polychromies and wood.
+  service2__header: Designs and Arrangements Studio
+  service2__content: We design and create arrangements throughout Europe for individual and institutional customers. Their common feature is an appreciation of the canons of art and the quality of custom-made designs.
   service3__header: Innovations
-  service3__content: In order to ensure feasibility of our custom designs, we continuously work on and improve new technologies and construction and decoration materials, like concrete and polyurethanes.
-  service__btn: Learn more
+  service3__content: In order to ensure the feasibility of our custom designs, we continuously work on and improve new technologies and construction and decoration materials, like concrete and polyurethanes.
+  service__btn: Learn More
 
-  cta__header: We connect cross generation tradition and modern technology
-  cta__subheader: Ask for a project
-  cta__button: Enquire about project
+  cta__header: We Connect Cross-Generational Tradition and Modern Technology
+  cta__button: Ask about the Project
 
-  contact__header1.9: Contact us
-  contact__header1: Contact us
+  contact__header1: Our Studio
+  contact__header2: Office location
   contact__telephone: Telephone
 
   footer: Copyrights by Art Inventis 2016 - all rights reserved.
+
 langs:
-  pl: Angielski
+  pl: Polish
   en: English
 
 topbar:
   contact: Contact
   conservation: Conservation
-  projects: Projects and aransations
+  projects: Projects and Arrangements
   innovations: Innovations
-  references: Our clients
-  us: About us
+  references: Our Clients
+  us: About Us
 
 projects:
-  h1: EN EN EN Pracownia projektów i aranżacji
-  h2: EN EN EN Łączymy wielopokoleniową tradycję i nowoczesną technologię
-  h3: EN EN EN Nagłówek związany z projektami
+  h1: Projects and Arrangements Studio
+  h2: We Connect Cross-Generational Tradition and Modern Technology
+  h3: Daring projects
 
-  lp1: EN EN EN Jeśli budują Państwo rezydencje, ośrodek SPA, hotel lub szukają Państwo inspiracji do aranżacji to trafili Pań stwo pod własciwy adres. Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność  z kanonami sztuki oraz unikalny, robiony na zamówienie projekt.
+  lp1: If you are building residences, a SPA resort, a hotel, or seeking inspiration for interior design, you have come to the right place. We design and execute arrangements throughout Europe for private and institutional investors who value adherence to artistic canons and unique, custom-made designs.
 
-  lp2: EN EN EN Pracujemy z klientem nad wizualizacją pomysłów używając tradycyjnych technik, projektujemy i produkjemy dekoracje m.in. sztukaterie, malowidła, stolarkę także przy użyciu nowoczesnych materiałów, które sami produkujemy (zobacz <a href='/innowacje.html'>sekcje innowacje</a>) dzięki czemu jestesmy wykonać każdy, nawet najbardziej śmiały projekt.
+  lp2: We work with clients on idea visualization using traditional techniques. We design and produce decorations, including stucco work, paintings, carpentry, and more, using innovative materials we manufacture ourselves (see <a href='/innovations.html'>innovations section</a>). This allows us to execute even the most ambitious projects.
 
-  rp1: EN EN EN Kierujemy i koordynujemy kompeksowymi realizacjami, zgodnie z globlanymi standardami zarządzania projektami (PMI, Prince2), dzięki czemu zapewniamy najwższe standardy współpracy, efektywność  i solidność.
+  rp1: We lead and coordinate comprehensive realizations in accordance with global project management standards (PMI, Prince2), ensuring the highest standards of collaboration, efficiency, and reliability.
+  rp2: We manage and coordinate complex realizations, in accordance with global project management standards (PMI, Prince2), thus ensuring the highest standards of cooperation, efficiency and reliability. Due to the fact that some of our implementations are private, in the references you will find only selected projects of a public nature.
 
 conservation:
-  h1: Art conservation
-  h2: We blabla
-  h3: Header conservation
+  h1: Art Conservation
+  h2: We combine multi-generational tradition and modern technology
+  h3: Art and tradition
 
-  lp1: EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
-  lp2: EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  lp1: Craftsmanship is our true passion, the tradition of which in our studio dates back two generations. For more than 20 years we have been mainly engaged in the conservation of buildings, sculpture and stucco.
 
-  rp1: EN ontrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  rp1: We also cooperate with authorities in the field of conservation of paintings, wood, metals to provide our clients with a comprehensive service. We have dozens of realizations all over Poland. Selected realizations, you can find in the testimonials section.
 
 innovations:
-  h1: EN EN EN Innowacje
-  h2: EN EN EN Innowache H2
-  h3: EN EN EN Nagłówek związany z innowacjami
+  h1: Building Innovations
+  h2: We Combine Cross-Generational Tradition and Modern Technology
+  h3: Laboratory of New Materials
 
-  lp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,.
-  lp2: EN EN EN And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  lp1: In addition to our knowledge of traditional techniques, we continuously work on and improve new building and decorative materials, such as concrete and polyurethanes.
+  lp2: We have our own laboratory, but we also collaborate with specialists in the fields of chemistry and construction technology.
 
-  rp1: EN EN EN Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical.</p> <p>Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  rp1: Thanks to the properties of our materials, we can realize projects that are impossible for others. We constantly expand our knowledge, which is applied in many projects in Poland and abroad.
+
 contact:
-  h1: Contact us
-  h2: You are welcome to fill in the form and contact us
+  h1: Contact Us
+  h2: Please fill out the form for consultation or pricing
   name: Name
-  mail: E-mail adress
+  mail: Email Address
   content: Message
   content__placeholder: How can we help?
   send: Send
-  modal__h1: Message sent
-  modal__p: We will reply as soon as it's possible
+  modal__h1: Message Sent
+  modal__p: We will reply as soon as possible.
 
 about:
-  header: EN EN Bartłomiej Szefer
-  subheader:  EN Założyciel Art Inventis
-  p1: EN Pragmatyk, projektant, rzeźbiarz, specjalista w dziedzinie sztukatorstwa, technik konserwatorskich i historii sztuki, zwolennik tradycyjnych sprawdzonych rozwiązań technicznych. Cechuje go niezwykła dbałość o szczegóły nie ograniczając umiejętności analitycznego spojrzenia na całokształt zagadnienia. Ma 15 lat doświadczenia jako sztukator i konserwator.
-  p2: EN EN Prywatnie taternik, amator kolarstwa przełajowego, kolekcjoner muzyki, miłośnik literatury.
-  team__header: EN Zespół Art Inventis
-  team__p: EN Nasz zespół składa się z doświadczonych konserwatorów sztuki, architektów, techników budownictwa, chemii oraz konstruktorów.
+  header: Bartłomiej Szefer
+  subheader: Founder of Art Inventis
+  p1: Pragmatist, designer, sculptor, specialist in stucco work, conservation techniques, and art history. He is known for his meticulous attention to detail while also possessing the ability to analyze the bigger picture. With 15 years of experience as a stucco artist and conservator.
+  p2: Privately, a mountaineer, amateur cyclocross cyclist, music collector, and literature enthusiast.
+  team__header: Art Inventis Team
+  team__p: Our team consists of experienced art conservators, architects, construction technicians, chemists, and engineers.
 
 references:
-  ref__header: EN Referencje
-  ref__subheader: EN Najlepiej o nas świadcza opinie naszych klientów
-  ref__subheader2: EN Pozostałe realizacje
+  ref__header: References
+  ref__subheader: The best testimony to us is the opinions of our clients.
+  ref__subheader2: Other Achievements
