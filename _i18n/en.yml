@@ -1,7 +1,7 @@
 global:
-  hero__h1: Design, Arrangements, and Monument Preservation.
-  hero__h2: We connect cross-generational tradition and modern technology.
-  hero__btn: Inquire about the project.
+  hero__h1: Design, Arrangements, and Monument Preservation
+  hero__h2: We connect cross-generational tradition and modern technology
+  hero__btn: Enquire about the project
 
   about__lead: We specialize in end-to-end projects in the areas of architecture and interior design, daring construction projects, and monument preservation.
   about__p: We support our customers at all stages, from idea visualization to managing and coordinating complex realizations in accordance with global management standards. We also design and create decorations, including paintings, carpentry, and molding, which involve innovative materials of our own recipe. We are experts in monument preservation, an occupation that spans two generations within our company.
@@ -17,16 +17,16 @@ global:
   service__btn: Learn More
 
   cta__header: We Connect Cross-Generational Tradition and Modern Technology
-  cta__subheader: Ask for a Project
-  cta__button: Inquire about the Project
+  cta__button: Ask about the Project
 
-  contact__header1.9: Contact Us
-  contact__header1: Contact Us
+  contact__header1: Our Studio
+  contact__header2: Office location
   contact__telephone: Telephone
 
   footer: Copyrights by Art Inventis 2016 - all rights reserved.
+
 langs:
-  pl: Polski
+  pl: Polish
   en: English
 
 topbar:
@@ -40,24 +40,23 @@ topbar:
 projects:
   h1: Projects and Arrangements Studio
   h2: We Connect Cross-Generational Tradition and Modern Technology
-  h3: Header Related to Projects
+  h3: Daring projects
 
   lp1: If you are building residences, a SPA resort, a hotel, or seeking inspiration for interior design, you have come to the right place. We design and execute arrangements throughout Europe for private and institutional investors who value adherence to artistic canons and unique, custom-made designs.
 
   lp2: We work with clients on idea visualization using traditional techniques. We design and produce decorations, including stucco work, paintings, carpentry, and more, using innovative materials we manufacture ourselves (see <a href='/innovations.html'>innovations section</a>). This allows us to execute even the most ambitious projects.
 
   rp1: We lead and coordinate comprehensive realizations in accordance with global project management standards (PMI, Prince2), ensuring the highest standards of collaboration, efficiency, and reliability.
+  rp2: We manage and coordinate complex realizations, in accordance with global project management standards (PMI, Prince2), thus ensuring the highest standards of cooperation, efficiency and reliability. Due to the fact that some of our implementations are private, in the references you will find only selected projects of a public nature.
 
 conservation:
   h1: Art Conservation
-  h2: We specialize in conserving artworks.
-  h3: Conservation-related Header
+  h2: We combine multi-generational tradition and modern technology
+  h3: Art and tradition
 
-  lp1: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage.
+  lp1: Craftsmanship is our true passion, the tradition of which in our studio dates back two generations. For more than 20 years we have been mainly engaged in the conservation of buildings, sculpture and stucco.
 
-  lp2: And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
-
-  rp1: Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage. And going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory.
+  rp1: We also cooperate with authorities in the field of conservation of paintings, wood, metals to provide our clients with a comprehensive service. We have dozens of realizations all over Poland. Selected realizations, you can find in the testimonials section.
 
 innovations:
   h1: Building Innovations
@@ -71,7 +70,7 @@ innovations:
 
 contact:
   h1: Contact Us
-  h2: You are welcome to fill out the form for consultation or pricing
+  h2: Please fill out the form for consultation or pricing
   name: Name
   mail: Email Address
   content: Message

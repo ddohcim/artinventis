@@ -3,13 +3,13 @@ global:
   hero__h2: Łączymy wielopokoleniową tradycję i nowoczesną technologię
   hero__btn: Zapytaj o projekt
 
-  about__lead: Zajmujemy się kompleksową obsługa projektów w zakresie architektury i dekoracji, śmiałych realizacji budowlanych oraz konserwacji zabytków.
+  about__lead: Zajmujemy się kompleksową obsługą projektów w zakresie architektury i dekoracji, śmiałych realizacji budowlanych oraz konserwacji zabytków.
   about__p: Pracujemy z klientami nad wizualizacją ich pomysłów, projektujemy i produkujemy dekoracje m.in. sztukaterie, malowidła, stolarkę, także przy użyciu nowoczesnych materiałów, które sami wytwarzamy. Kierujemy i koordynujemy kompleksowymi realizacjami, zgodnie z globalnymi standardami zarządzania. Zajmujemy się także konserwacją zabytków, której to tradycja sięga w firmie dwóch pokoleń.
   about__span: Serdecznie zapraszamy do współpracy
 
   services__header: Czym się zajmujemy?
   service1__header: Pracownia konserwacji zabytków
-  service1__content: Od 20 lat zajmujemy się konserwacją zabytków. Nasza specjalnością jest konserwacja rzeźby i sztukatorstwo, ale współpracujemy także z najlepszymi specjalistami w dziedzinie polichromii i drewna.
+  service1__content: Od 20 lat zajmujemy się konserwacją zabytków. Naszą specjalnością jest konserwacja rzeźby i sztukatorstwo, ale współpracujemy także z najlepszymi specjalistami w dziedzinie polichromii i drewna.
   service2__header: Pracownia projektów i aranżacji
   service2__content: Projektujemy i realizujemy aranżacje w całej Europie dla inwestorów prywatnych i instytucjonalnych, którzy cenią sobie zgodność z kanonami sztuki oraz unikalny, tworzony na zamówienie projekt.
   service3__header: Innowacje budowlane
@@ -26,8 +26,8 @@ global:
   footer: Copyrights by Art Inventis 2016 - Wszelkie prawa zastrzeżone.
 
 langs:
-  pl: Angielski
-  en: English
+  pl: Polski
+  en: Angielski
 
 topbar:
   contact: Kontakt
