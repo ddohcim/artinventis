@@ -2,9 +2,7 @@
 <html>
   {% include head.html %}
   <body>
-    {% include offcanvas.html %}
-    {% include topbar.html %}
-
+    {% include offcanvas.html %} {% include topbar.html %}
 
     <!-- ######################################### -->
     <!-- SECTION HERO START -->
@@ -12,109 +10,126 @@
 
     <section class="home">
       <div class="expanded row hero-section">
-
         <div class="large-7 columns hero__left">
           <div class="helper1">
             <div class="hero__typo">
               <h1>{% t global.hero__h1 %}</h1>
               <h2>{% t global.hero__h2 %}</h2>
 
-              {% if site.lang == "en" %}
-              <button onclick="location.href = '/contact.html';" href="contact.html" class="btn-ghost">{% t global.hero__btn %}</button>
-              {% else %}
-              <button onclick="location.href = '/contact.html';" href="contact.html" class="btn-ghost">{% t global.hero__btn %}</button>
-              {% endif %}
+              <button
+                onclick="location.href = location.href + 'contact.html';"
+                class="btn-ghost"
+              >
+                {% t global.hero__btn %}
+              </button>
             </div>
           </div>
         </div>
 
-        <div class="large-5 show-only-on-large columns hero__illu">
-        </div>
-
+        <div class="large-5 show-only-on-large columns hero__illu"></div>
       </div>
     </section>
     <!-- ######################################### -->
     <!-- SECTION HERO END -->
     <!-- ######################################### -->
 
-
-
-
     <!-- ######################################### -->
     <!-- SECTION ABOUT START -->
     <!-- ######################################### -->
     <section class="home-about">
       <div class="expanded row collapse">
-
         <div class="medium-12 large-4 columns home-about__left">
-          <img src="img/about1.png" alt="" class="box-shadow home-about__left-img">
-          <img src="img/about2.png" alt="" class="box-shadow home-about__left-img show-for-medium hide-for-large">
-          <img src="img/about3.png" alt="" class="box-shadow home-about__left-img show-for-medium hide-for-large">
+          <img
+            src="img/about1.png"
+            alt=""
+            class="box-shadow home-about__left-img"
+          />
+          <img
+            src="img/about2.png"
+            alt=""
+            class="box-shadow home-about__left-img show-for-medium hide-for-large"
+          />
+          <img
+            src="img/about3.png"
+            alt=""
+            class="box-shadow home-about__left-img show-for-medium hide-for-large"
+          />
         </div>
 
         <div class="large-6 columns home-about__content">
           <h3>{% t global.about__lead %}</h3>
-          <p>{% t global.about__p %}
+          <p>
+            {% t global.about__p %}
             <span>{% t global.about__span %}</span>
-            <img src="img/signatures.png" class="home-about__signatures" alt="">
+            <img
+              src="img/signatures.png"
+              class="home-about__signatures"
+              alt=""
+            />
           </p>
         </div>
 
-        <div class="large-2 columns text-right home-about__right show-for-large">
-          <img src="img/about2.png" alt="" class="box-shadow">
-          <img src="img/about3.png" alt="" class="box-shadow">
+        <div
+          class="large-2 columns text-right home-about__right show-for-large"
+        >
+          <img src="img/about2.png" alt="" class="box-shadow" />
+          <img src="img/about3.png" alt="" class="box-shadow" />
         </div>
-
       </div>
     </section>
     <!-- ######################################### -->
     <!-- SECTION ABOUT END -->
     <!-- ######################################### -->
 
-
-
-
     <!-- ######################################### -->
     <!-- SECTION SERVICES START -->
     <!-- ######################################### -->
     <section class="services text-center">
-      <h2>{% t global.services__header %}</</h2>
+      <h2>{% t global.services__header %}</h2>
       <div class="expanded row">
-
         <div class="large-4 columns">
-          <img src="img/service-konserwacja.svg" alt="">
+          <img src="img/service-konserwacja.svg" alt="" />
           <h3>{% t global.service1__header %}</h3>
           <p>{% t global.service1__content %}</p>
-          <button onclick="location.href = '/contact.html';" href="contact.html" class="btn-ghost btn-small"> {% t global.service__btn %} </button>
+          <button
+            onclick="location.href = location.href + 'contact.html';"
+            class="btn-ghost btn-small"
+          >
+            {% t global.service__btn %}
+          </button>
         </div>
 
         <div class="large-4 columns">
-          <img src="img/service-projekty.svg" alt="">
+          <img src="img/service-projekty.svg" alt="" />
           <h3>{% t global.service2__header %}</h3>
           <p>{% t global.service2__content %}</p>
-          <button class="btn-ghost btn-small">{% t global.service__btn %}</button>
+          <button
+            onclick="location.href = location.href + 'contact.html';"
+            class="btn-ghost btn-small"
+          >
+            {% t global.service__btn %}
+          </button>
         </div>
 
         <div class="large-4 columns services__innovations">
-          <img src="img/service-innowacje.svg" alt="">
+          <img src="img/service-innowacje.svg" alt="" />
           <h3>{% t global.service3__header %}</h3>
           <p>{% t global.service3__content %}</p>
-          <button class="btn-ghost btn-small">{% t global.service__btn %}</button>
+          <button
+            onclick="location.href = location.href + 'contact.html';"
+            class="btn-ghost btn-small"
+          >
+            {% t global.service__btn %}
+          </button>
         </div>
-
       </div>
     </section>
     <!-- ######################################### -->
     <!-- SECTION SERVICES END -->
     <!-- ######################################### -->
 
-
-
-
-
-  {% include contact-map.html %}
-  {% include cta.html %}
-  {% include footer.html %}
-  <script src="js/home.js"></script>
+    {% include contact-map.html %} {% include cta.html %} {% include footer.html
+    %}
+    <script src="js/home.js"></script>
   </body>
 </html>
