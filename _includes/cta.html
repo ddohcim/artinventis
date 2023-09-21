@@ -1,9 +1,19 @@
 <section class="cta text-center">
   <h3>{% t global.cta__header %}</h3>
+
+  {% if site.lang == "en" %}
+  <button
+    onclick="location.href = '/en/contact.html';"
+    class="btn-ghost btn-on-dark"
+  >
+    {% t global.cta__button %}
+  </button>
+  {% else %}
   <button
     onclick="location.href = '/contact.html';"
     class="btn-ghost btn-on-dark"
   >
     {% t global.cta__button %}
   </button>
+  {% endif %}
 </section>
